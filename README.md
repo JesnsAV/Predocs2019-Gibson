@@ -38,4 +38,33 @@ to find homology or homologous sequences for phylogenetic experiments
 
 downloaded the blast hits as fasta files
 
+## jalview
+
+load the blasted seqs in jalview and align with clustalO
+
+color by AA and enables manual curation of alignments
+
+a missing bit of sequence when comparing mammalian and bacterial proteins
+- represents the peak of disorder in the first plot from IUPred2a
+
+## SWISS-MODEL
+
+homology modelling - structure is more conserved than sequence
+
+there might be more similarity in structure from varying sequences
+
+the bit with disorder is sticking out of the model
+- linker domain - might have importance for function
+- missing in bacteria
+
+
+# Short Linear Motifs
+
+high throughput experimental approaches
+
+patterns are encoded by or: [] not: ^ any: .
+
+
+
+
 
