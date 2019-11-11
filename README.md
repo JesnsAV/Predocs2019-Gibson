@@ -58,13 +58,43 @@ the bit with disorder is sticking out of the model
 - missing in bacteria
 
 
-# Short Linear Motifs
+# Short Linear Motifs --- SLiMs
 
 high throughput experimental approaches
 
 patterns are encoded by or: [] not: ^ any: .
 
+## ELM - eukaryotic motif database
 
+work through extra word document
+make screenshot
 
+## Chimera
 
+another extra doc
 
+for visualizing structures
+
+explored the binding between protein and ligand
+
+split them to see the surface between protein and ligand
+
+can infer the Hbonds - but not between the split parts any longer
+
+## PFAM
+
+database for domains - wikipedia style
+
+## human protein atlas
+
+database for the localisation of proteins in cells
+
+## back to ELM
+
+align two proteins with MatchMaker and select aligned residues 
+
+use different show methods to highlight things like motifs
+
+## looking at an alignment of peptides in jalview
+
+very short aligned peptides to infer slims
