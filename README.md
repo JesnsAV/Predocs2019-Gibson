@@ -95,6 +95,93 @@ align two proteins with MatchMaker and select aligned residues
 
 use different show methods to highlight things like motifs
 
+
 ## looking at an alignment of peptides in jalview
 
 very short aligned peptides to infer slims
+
+
+
+
+
+
+# Eustermann part
+
+intro to fourier analysis & analysis of single molecule cryoEM (ecoli ribosomes)
+
+reconstruct 3D structure from EM projections - projection slice theorem
+- FFT different 2D projected images
+- assemble the 2D fourier transforms into 3D
+- invert Fourier transform on assembled 2D fourier slices
+
+## Fourier analysis
+
+construction of waves by fourier series of additive sine waves
+- Amplitude, freq, period, phase -> describe wave
+
+different description through complex numbers: fourier transform returns the complex numbers 
+that describe the amplitude and phase information of each wave
+
+power spectrum: visualization of additive sine waves with frequency on x axis
+- fourier space is the extension into 2D with the pixel intensity corresponding to the height of peaks in 1D
+
+convolution and cross correlation become multiplication operations in fourier space
+- computationally efficient
+
+## reconstruct ribosome from 50 micrographs
+
+using RELION - analysis pipeline 
+- incl motion correction
+- motion induced from overall sample motion and beam-induced particle motion
+- corrected by acquiring stacks instead of single frames
+
+
+checked the power spectra of motion corrected and raw movies
+- motion corrected show more high frequency information
+- means sharper resolution is possible
+- because of the outer rings that are visible in the motion corrected power spectrum
+
+
+auto-picked the particles from all micrographs
+
+extracted particles
+
+classification of the particles into classes from the 2D data
+- clustering and averaging of particles in the same rotation
+- improves with each iteration because of the averaging 
+- classes become more separated with each step
+
+
+
+
+## radiation damage
+
+elastic and inelastic scattering of electrons
+- inelastic causes radiation damage in the sample through stochastic interactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git -c user.name='W-L' -c user.email='lukas.weilguny@24speed.at' commit -m '...'
+
+
+
+
+
+
