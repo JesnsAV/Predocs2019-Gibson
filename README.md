@@ -151,6 +151,8 @@ classification of the particles into classes from the 2D data
 - improves with each iteration because of the averaging 
 - classes become more separated with each step
 
+3D auto-refinement with a reference volume that was precalculated
+
 
 
 
@@ -174,11 +176,6 @@ elastic and inelastic scattering of electrons
 
 
 
-
-
-
-
-git -c user.name='W-L' -c user.email='lukas.weilguny@24speed.at' commit -m '...'
 
 
 
